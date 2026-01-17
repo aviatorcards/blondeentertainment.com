@@ -1,0 +1,132 @@
+[
+  {
+    "id": "the-doo-band",
+    "name": "The Doo! Band",
+    "category": "bands",
+    "image": "/bands/doo-band.png",
+    "description": "High-energy party band bringing the hits.",
+    "genre": "Party / Top 40",
+    "youtubeId": "dQw4w9WgXcQ",
+    "videoTitle": "Live at Summer Fest 2024"
+  },
+  {
+    "id": "living-proof",
+    "name": "Living Proof",
+    "category": "bands",
+    "image": "/bands/living-proof.png",
+    "description": "Versatile cover band for any occasion.",
+    "genre": "Cover Band",
+    "youtubeId": "fJ9rUzIMcZQ",
+    "videoTitle": "Wedding Reception Highlights"
+  },
+  {
+    "id": "the-bishops",
+    "name": "The Bishops",
+    "category": "bands",
+    "image": "/bands/bishops.png",
+    "description": "Classic rock and blues favorites.",
+    "genre": "Classic Rock / Blues",
+    "youtubeId": "kXYiU_JCYtU",
+    "videoTitle": "Blues Night at The Vogue"
+  },
+  {
+    "id": "my-yellow-rickshaw",
+    "name": "My Yellow Rickshaw",
+    "category": "bands",
+    "image": "/bands/yellow-rickshaw.png",
+    "description": "Eclectic mix of genres and styles.",
+    "genre": "Eclectic / Fusion",
+    "youtubeId": "hTWKbfoikeg",
+    "videoTitle": "Fusion Friday Live Set"
+  },
+  {
+    "id": "45-rpm",
+    "name": "45 RPM",
+    "category": "bands",
+    "image": "/bands/45-rpm.png",
+    "description": "Oldies and throwback hits.",
+    "genre": "Oldies / Throwback",
+    "youtubeId": "Zi_XLOBDo_Y",
+    "videoTitle": "Retro Night at The Hi-Fi"
+  },
+  {
+    "id": "the-nauti-yachtys",
+    "name": "The Nauti Yachtys",
+    "category": "bands",
+    "image": "/bands/nauti-yachtys.png",
+    "description": "Yacht rock and smooth grooves.",
+    "genre": "Yacht Rock",
+    "youtubeId": "oOg5VxrRTi0",
+    "videoTitle": "Smooth Sailing Summer Tour"
+  },
+  {
+    "id": "can-you-rock-band",
+    "name": "Can You Rock Band",
+    "category": "bands",
+    "image": "/bands/can-you-rock.png",
+    "description": "Rock anthems and crowd favorites.",
+    "genre": "Rock",
+    "youtubeId": "pAgnJDJN4VA",
+    "videoTitle": "Rock The Block 2024"
+  },
+  {
+    "id": "can-you-jam-band",
+    "name": "Can You Jam Band",
+    "category": "bands",
+    "image": "/bands/can-you-jam.png",
+    "description": "Extended jams and improvisational sets.",
+    "genre": "Jam Band",
+    "youtubeId": "VrDfSZ_6f4U",
+    "videoTitle": "Extended Jam Session"
+  },
+  {
+    "id": "stella-luna-satellites",
+    "name": "Stella Luna & the Satellites",
+    "category": "bands",
+    "image": "/bands/stella-luna.png",
+    "description": "Soulful vocals and stellar performances.",
+    "genre": "Soul / R&B",
+    "youtubeId": "IcrbM1l_BoI",
+    "videoTitle": "Soulful Nights Showcase"
+  },
+  {
+    "id": "orvis-and-friends",
+    "name": "Orvis and Friends",
+    "category": "bands",
+    "image": "/bands/orvis.png",
+    "description": "Collaborative performances with rotating artists.",
+    "genre": "Collaborative",
+    "youtubeId": "QH2-TGUlwu4",
+    "videoTitle": "Friends & Family Jam"
+  },
+  {
+    "id": "when-country-went-pop",
+    "name": "When Country Went POP!",
+    "category": "bands",
+    "image": "/bands/country-pop.png",
+    "description": "Country crossover hits and singalongs.",
+    "genre": "Country Pop",
+    "youtubeId": "btPJPFnesV4",
+    "videoTitle": "Country Pop Crossover Show"
+  },
+  {
+    "id": "livingroomvibes",
+    "name": "#livingRoomVibes",
+    "category": "acoustics",
+    "image": "/bands/livingroom-vibes.png",
+    "description": "Intimate acoustic performances.",
+    "genre": "Acoustic",
+    "youtubeId": "V1bFr2SWP1I",
+    "videoTitle": "Living Room Sessions"
+  },
+  {
+    "id": "blonde-acoustics",
+    "name": "Blonde Acoustics",
+    "category": "acoustics",
+    "image": "/bands/blonde-acoustics.png",
+    "description": "Stripped-down acoustic acts.",
+    "genre": "Acoustic",
+    "youtubeId": "ktvTqknDobU",
+    "videoTitle": "Unplugged at The Rathskeller"
+  }
+]

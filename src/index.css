@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap");
+
+:root {
+  --blonde-gold: #c5a059;
+  --blonde-cream: #f9f9f7;
+  --blonde-dark: #121212;
+  --blonde-accent: #e5d1b0;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Outfit", sans-serif;
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-serif);
+  background-color: var(--blonde-cream);
+  color: var(--blonde-dark);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
+.btn,
+.form-control,
+.form-select,
+.form-label {
+  font-family: var(--font-sans);
+}
+
+a {
+  color: var(--blonde-dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blonde-gold);
+}
+
+.btn-blonde {
+  background-color: var(--blonde-gold);
+  border-color: var(--blonde-gold);
+  color: white;
+}
+
+.btn-blonde:hover {
+  background-color: #8a8a42;
+  border-color: #8a8a42;
+  color: white;
+}
+
+.btn-outline-blonde {
+  border-color: var(--blonde-dark);
+  color: var(--blonde-dark);
+}
+
+.btn-outline-blonde:hover {
+  background-color: var(--blonde-dark);
+  color: white;
+}
+
+.text-blonde-gold {
+  color: var(--blonde-gold);
+}
+
+.bg-blonde-cream {
+  background-color: var(--blonde-cream);
+}
+
+.bg-blonde-dark {
+  background-color: var(--blonde-dark);
+}
