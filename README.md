@@ -4,10 +4,6 @@
 
 A modern, premium rebuild of the Blonde Entertainment website using React and Vite. This project showcases the agency's bands, acoustics, photos, and booking services with a focus on elegant design, accessibility, and performance.
 
-## Background
-
-A friend was recently contacted by a promoter for this entertainment company to perform later in the year. While Blonde Entertainment is a reputable company with **25+ years** of professional experience representing live entertainment across Indiana and the Midwest, their existing Wix-based website didn't reflect that level of quality or professionalism.
-
 ## Why This Rebuild?
 
 The original site suffered from several critical issues:
