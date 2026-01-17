@@ -1,10 +1,14 @@
 # Blonde Entertainment - Website Rebuild
 
-A modern, premium rebuild of the Blonde Entertainment website using React and Vite. This project showcases the agency's bands, acoustics, photos, and booking services with a focus on elegant design and performance.
+**TARGET URL:** https://blondeentertainment.com
+
+A modern, premium rebuild of the Blonde Entertainment website using React and Vite. This project showcases the agency's bands, acoustics, photos, and booking services with a focus on elegant design, accessibility, and performance.
+
+## Background
+
+A friend was recently contacted by a promoter for this entertainment company to perform later in the year. While Blonde Entertainment is a reputable company with **25+ years** of professional experience representing live entertainment across Indiana and the Midwest, their existing Wix-based website didn't reflect that level of quality or professionalism.
 
 ## Why This Rebuild?
-
-Blonde Entertainment is a reputable agency with **25+ years** of professional experience representing live entertainment across Indiana and the Midwest. Unfortunately, their existing Wix-based website didn't reflect that level of quality or professionalism.
 
 The original site suffered from several critical issues:
 
@@ -21,18 +25,95 @@ This rebuild addresses all of these issues with a clean, maintainable React code
 
 ## Features
 
-- **Premium Design**: Custom typography with Playfair Display and Outfit fonts
-- **Responsive Layout**: Mobile-first design with Bootstrap utilities
-- **Image Gallery**: Curated photos from Unsplash with lightbox functionality
-- **Band Showcase**: Dynamic band listings with detail modals
-- **Fast Performance**: Built with Vite for lightning-fast development and production builds
+### Pages & Functionality
+
+**Home Page**
+- Hero section with branded typography and call-to-action buttons
+- "The Blonde Standard" about section with value propositions
+- Statistics dashboard (15+ active bands, 500+ events yearly, 25+ years experience)
+- Featured artists grid with dynamic data from bands.json
+- Booking call-to-action section
+
+**Bands Page**
+- Dual-view interface: "Browse Bands" grid and "Watch & Listen" video player
+- Accessible tab navigation with ARIA roles and keyboard support
+- Band cards with hover effects and detail modals
+- Integrated YouTube video previews for each band
+- Keyboard navigation guide for video grid (arrow keys, Home/End)
+- Screen reader announcements for view changes
+- Direct booking links from band details
+
+**Blonde Acoustics Page**
+- Filtered view of acoustic/solo acts
+- Horizontal card layout with images and descriptions
+- Quick booking links
+
+**Photos Page**
+- Responsive image gallery grid (4 columns on desktop, 2 on mobile)
+- Lightbox modal for full-size image viewing
+- Hover effects with zoom and overlay
+- Curated placeholder images from Unsplash
+
+**Connect Page**
+- Professional booking inquiry form
+- Contact sidebar with email, phone, and location
+- Form sections: Contact Information, Event Details
+- Band selection dropdown populated from bands.json
+- Success confirmation state with option to submit another request
+- Social media links
+
+**Calendar Page**
+- Google Calendar embed for event scheduling
+- Instructions for adding events to personal calendars
+
+**Talent Page**
+- Musician/performer recruitment information
+- Link to sister agency Blonde Talent (blondetalent.com)
+- Career advancement call-to-action
+
+**Blonde Hope Page**
+- Community initiatives showcase (Charity Concerts, Community Outreach, Nonprofit Support)
+- Annual impact statistics
+- Partnership inquiry for nonprofits
+
+**Saucey Hippie Page**
+- Featured artist/brand showcase
+- Hero image with description
+- Vibe gallery with hover zoom effects
+- Instagram link and booking CTA
+
+### Design & UX
+
+- **Premium Typography**: Playfair Display (serif) for headings, Outfit (sans-serif) for body
+- **Custom Color Palette**: Blonde Gold (#c5a059), Blonde Cream (#faf9f6), Blonde Dark (#121212), Blonde Accent (#e5d1b0)
+- **Responsive Layout**: Mobile-first design with Bootstrap 5 utilities
+- **Sticky Navigation**: Fixed header with active state indicators
+- **Smooth Transitions**: CSS transitions on hover states, card animations, and view changes
+- **Custom Logo**: Branded "BLONDE" text with gold accent "O"
+
+### Accessibility
+
+- ARIA roles and labels throughout (tablist, tabpanel, gridcell, etc.)
+- Screen reader announcements for dynamic content changes
+- Full keyboard navigation for video grid (arrow keys, Enter/Space, Home/End)
+- Visible focus indicators
+- Alt text for images
+- Semantic HTML structure
+
+### Technical
+
+- **Fast Performance**: Vite build system with hot module replacement
+- **Data-Driven**: Band information stored in JSON for easy updates
+- **Error Handling**: Graceful fallbacks for missing images
+- **Clean URLs**: Proper routing structure (no `/copy-of-*` endpoints)
 
 ## Tech Stack
 
-- **React** - UI framework
-- **Vite** - Build tool and dev server
-- **React Router** - Client-side routing
-- **React Bootstrap** - UI components
+- **React 19** - UI framework
+- **Vite 7** - Build tool and dev server
+- **React Router 7** - Client-side routing
+- **React Bootstrap 2** - UI components
+- **Bootstrap 5** - CSS utilities and grid
 - **CSS Custom Properties** - Design system tokens
 
 ## Getting Started
@@ -142,6 +223,27 @@ Compatible with:
 - Netlify
 - GitHub Pages
 - AWS S3 + CloudFront
+
+## Related Links
+
+- **Blonde Entertainment**: https://blondeentertainment.com (original site)
+- **Blonde Talent**: https://www.blondetalent.com (sister modeling/talent agency)
+- **Linktree**: https://linktr.ee/BlondeEntertainment
+- **Mobile App**: Available on the [App Store](https://apps.apple.com/us/app/blonde-entertainment/id1593749525) (wrapper for mobile site)
+
+## Routes
+
+| Path | Page | Description |
+|------|------|-------------|
+| `/` | Home | Landing page with hero, about, and featured bands |
+| `/bands` | Bands | Full band roster with browse/watch views |
+| `/blonde-acoustics` | Acoustics | Acoustic and solo acts |
+| `/photos` | Photos | Image gallery with lightbox |
+| `/connect` | Connect | Booking inquiry form |
+| `/calendar` | Calendar | Google Calendar embed |
+| `/talent` | Talent | Performer recruitment |
+| `/blonde-hope` | Hope | Community initiatives |
+| `/saucey-hippie` | Saucey | Featured artist showcase |
 
 ## License
 
